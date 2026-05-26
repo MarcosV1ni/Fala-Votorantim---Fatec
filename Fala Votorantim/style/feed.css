@@ -1,0 +1,315 @@
+/* ========================= */
+/* FEED DE DENÚNCIAS */
+/* ========================= */
+
+main.FeedDenuncias
+{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 32px 0;
+
+    background-color: #D9DEE8;
+}
+
+/* CONTAINER GERAL */
+
+.ContainerFeed
+{
+    width: 1024px;
+}
+
+/* TÍTULO */
+
+.ContainerFeed h2
+{
+    font-size: 32px;
+    font-weight: 500;
+
+    color: var(--DetalheCinza);
+
+    margin-bottom: 12px;
+}
+
+/* ========================= */
+/* FILTROS */
+/* ========================= */
+
+.ContainerFiltros
+{
+    width: 1024px;
+
+    background-color: #E3E3E3;
+
+    border: 1px solid #8D96A5;
+    border-radius: 15px;
+
+    padding: 12px;
+
+    margin-bottom: 16px;
+}
+
+.ContainerFiltros h3
+{
+    font-size: 24px;
+    font-weight: 600;
+
+    color: var(--DetalheCinza);
+
+    margin-bottom: 14px;
+}
+
+/* INPUTS */
+
+.Filtros
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.Filtros input
+{
+    width: 100%;
+    max-width: 320px;
+
+    height: 48px;
+
+    border-radius: 10px;
+    border: 2px solid #9AA4B4;
+
+    background-color: #EFEFEF;
+
+    padding-left: 14px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.Filtros input::placeholder
+{
+    color: #8D96A5;
+}
+
+/* ========================= */
+/* FEED */
+/* ========================= */
+
+.ContainerDenuncias
+{
+    width: 1024px;
+
+    border: 1px solid #8D96A5;
+    border-radius: 15px;
+
+    padding: 12px;
+
+    background-color: #E5E7EB;
+}
+
+/* CARD */
+
+.CardDenuncia
+{
+    width: 100%;
+
+    min-height: 220px;
+
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding: 16px;
+
+    margin-bottom: 14px;
+}
+
+.CardDenuncia:last-child
+{
+    margin-bottom: 0;
+}
+
+/* ========================= */
+/* CORES DOS CARDS */
+/* ========================= */
+
+.Azul
+{
+    background-color: #E3EBFA;
+    border: 2px solid var(--BordaAzulClara);
+}
+
+.Verde
+{
+    background-color: #E4F2E8;
+    border: 2px solid var(--BordaVerdeClara);
+}
+
+.Amarelo
+{
+    background-color: #F7F1DD;
+    border: 2px solid var(--BordaAmarela);
+}
+
+/* ========================= */
+/* INFO */
+/* ========================= */
+
+.InfoDenuncia
+{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOPO */
+
+.TopInfo
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-bottom: 16px;
+}
+
+/* NÚMERO */
+
+.Numero
+{
+    padding: 6px 16px;
+
+    border-radius: 999px;
+
+    border: 1px solid #A3A3A3;
+
+    background-color: #F6F6F6;
+
+    font-size: 14px;
+
+    color: #444;
+}
+
+/* STATUS */
+
+.Status
+{
+    padding: 6px 20px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+}
+
+/* STATUS CORES */
+
+.StatusAzul
+{
+    border: 1px solid #9EC0FF;
+
+    color: #3B6FD9;
+
+    background-color: #EEF5FF;
+}
+
+.StatusVerde
+{
+    border: 1px solid #93D9A1;
+
+    color: #2DA24D;
+
+    background-color: #EDFFF0;
+}
+
+.StatusAmarelo
+{
+    border: 1px solid #F0C75B;
+
+    color: #E39B00;
+
+    background-color: #FFF7E2;
+}
+
+/* TÍTULO */
+
+.InfoDenuncia h3
+{
+    font-size: 18px;
+    font-weight: 500;
+
+    color: var(--DetalheCinza);
+
+    margin-bottom: 12px;
+}
+
+/* CATEGORIA */
+
+.Categoria
+{
+    width: fit-content;
+
+    padding: 6px 14px;
+
+    border-radius: 999px;
+
+    border: 1px solid #A3A3A3;
+
+    background-color: #F8F8F8;
+
+    font-size: 14px;
+
+    color: #444;
+
+    margin-bottom: 14px;
+}
+
+/* DESCRIÇÃO */
+
+.InfoDenuncia p
+{
+    font-size: 15px;
+
+    color: var(--DetalheCinza);
+
+    margin-bottom: auto;
+}
+
+/* RODAPÉ */
+
+.RodapeInfo
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+
+    font-size: 12px;
+
+    color: #8A93A2;
+
+    margin-top: 18px;
+}
+
+/* ========================= */
+/* IMAGEM */
+/* ========================= */
+
+.ImagemDenuncia
+{
+    width: 190px;
+    min-width: 190px;
+
+    height: 170px;
+
+    border-radius: 10px;
+
+    border: 3px solid #B7D0FF;
+
+    background-color: #E5EAF3;
+}
