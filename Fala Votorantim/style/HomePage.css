@@ -1,58 +1,8 @@
-body {
-    min-height: 100vh;
-    height: 100%;
-}
-
-div.Wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    height: 100%;
-
-}
-
-div.container {
-    margin-top: 0;
-    padding: 0;
-    max-width: 768px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-div.container h3 {
-    /* display: block;
-    margin-left: 0;
-    width: 100%; */
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-div.container h1 {
-    display: block;
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 3rem;
-}
-
-div.container button#Comecar {
-    margin-left: 0;
-}
-
-div.container button#verDenuncias
-{
-    margin-left: 0;
-}
-
 .centralizar {
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
     justify-content: center;
     gap: 2rem;
+    width: 100%;
 }
 
 .btn {
@@ -70,4 +20,15 @@ div.container button#verDenuncias
 
 #verDenuncias:hover {
     background-color: var(--CorBranco);
+}
+
+@media (max-width: 1024px) {
+    .centralizar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
 }
