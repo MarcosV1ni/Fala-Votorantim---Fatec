@@ -40,7 +40,7 @@ footer .row {
 }
 
 .social-icons i {
-    color: white;
+    color: var(--CorBranco);
 
     font-size: 22px;
 
@@ -57,7 +57,7 @@ footer .row {
 /* ÁREA DAS PÁGINAS */
 
 .footer-pages {
-    color: white;
+    color: var(--CorBranco);
 }
 
 /* TÍTULO */
@@ -94,5 +94,5 @@ footer .row {
 }
 
 .footer-pages a:hover {
-    color: white;
+    color: var(--CorBranco);
 }
