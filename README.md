@@ -2,11 +2,11 @@
 
 Código do PI (Projeto Integrador) da Fatec
 
-Integrantes:
-César
-Guilherme
-Daniel
-Davi
-Marcos
+## Integrantes:
+- César Henrique
+- Guilherme Costa
+- Daniel de Freitas
+- Davi Dias
+- Marcos Vinícius
 
-Link do site: https://blackdani557.github.io/Fala-Votorantim---Fatec/Fala%20Votorantim/Views/HomePage.html
+Link do site: [Clique aqui](https://blackdani557.github.io/Fala-Votorantim---Fatec/Fala%20Votorantim/Views/HomePage.html)
