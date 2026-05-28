@@ -43,7 +43,9 @@ div.apresentacao{
 }
 
 
-div.container, div.DenunciasRecentes, div.apresentacao
+
+
+div.DenunciasRecentes, div.apresentacao
 {
     border: none;
 
@@ -55,6 +57,33 @@ div.container, div.DenunciasRecentes, div.apresentacao
 
     height: 138px;
 }
+
+div.alinhasDenuncias
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.DenunciasHoje, div.DenunciasResolvidas, div.DenunciasPendentes
+{
+    margin: auto auto 0 auto;
+
+    background-color: #fff;
+
+    width: 17.75rem;
+    height: 10.06rem;
+    border-radius: 15px;
+}
+
+div.DenunciasHoje h1,p
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
  div.MinhasDenuncias
  {
