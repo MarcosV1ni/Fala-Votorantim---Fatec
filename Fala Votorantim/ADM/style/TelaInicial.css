@@ -76,7 +76,7 @@ div.DenunciasHoje, div.DenunciasResolvidas, div.DenunciasPendentes
     border-radius: 15px;
 }
 
-div.DenunciasHoje h1,p
+div.DenunciasHoje h2,p
 {
     width: 100%;
     display: flex;
