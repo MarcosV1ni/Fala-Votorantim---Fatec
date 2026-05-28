@@ -29,13 +29,24 @@ aside div.logo h1
     font-size: 1.53rem;
 }
 
+section#adm ul li
+{
+    margin: 38px;
+}
 
+section#pagina ul li{
+    margin: 38px;
+}
+
+section#add ul li
+{
+    margin: 38px;
+}
 
 aside hr
 {
-    border: 3px;
-    height: 5px;
-    background-color: #ffffff;
+    width: 219px;
+    margin: 1.5rem auto 0 auto;
 }
 
 aside section strong,h2
