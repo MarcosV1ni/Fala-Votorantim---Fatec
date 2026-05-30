@@ -6,7 +6,9 @@
 /* 
    Dashboard.css — Fala Votorantim
     */
+  
 
+    
 /* O aside já tem width: 288px no menuLateral.css
    O display:flex aqui faz os dois ficarem lado a lado automaticamente */
 .telaPrincipal {
