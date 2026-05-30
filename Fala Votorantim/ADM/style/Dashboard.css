@@ -3,9 +3,9 @@
 @import url(../../style/footer.css);
 @import url(../../style/menuLateral.css);
 
-/* =============================================
+/* 
    Dashboard.css — Fala Votorantim
-   ============================================= */
+    */
 
 /* O aside já tem width: 288px no menuLateral.css
    O display:flex aqui faz os dois ficarem lado a lado automaticamente */
@@ -67,9 +67,9 @@
     margin: 0;
 }
 
-/* =============================================
+/* 
    Área dos gráficos
-   ============================================= */
+    */
 
 .areaGraficos {
     display: flex;
